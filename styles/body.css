@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    background-color: springgreen;
+    border-radius: 5px;
+}
+.container .container-time{
+    display: flex;
+    margin: 2%;
+    align-items: center;
+}
+.container .container-time .time{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .container-time .time p{
+    font-size: 50px;
+    margin:0;
+    padding-left: 2%;
+}
+
+
+.container-set-timer{
+    display: flex;
+    border-top: 1px solid white;
+    padding: 2%;
+}
+.container-set-timer .timer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+input {
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.timer .informations{
+    margin: 0;
+    font-size: 12px;
+}
+
+.timer .instruction{
+    margin: 0;
+    padding-bottom: 10%;
+    font-size: 20px;
+}
